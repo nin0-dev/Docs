@@ -41,15 +41,15 @@
     --sl-color-black: #f9f5d7;
 
     --sl-color-blue: #458588;
-    --sl-color-blue-low: hsl(from var(--sl-color-blue) h s 80%);
+    --sl-color-blue-low: hsl(from var(--sl-color-blue) h s 90%);
     --sl-color-blue-high: hsl(from var(--sl-color-blue) h s 20%);
     --sl-color-purple: #b16286;
-    --sl-color-purple-low: hsl(from var(--sl-color-purple) h s 80%);
+    --sl-color-purple-low: hsl(from var(--sl-color-purple) h s 90%);
     --sl-color-purple-high: hsl(from var(--sl-color-purple) h s 20%);
     --sl-color-orange: #d65d0e;
-    --sl-color-orange-low: hsl(from var(--sl-color-orange) h s 80%);
+    --sl-color-orange-low: hsl(from var(--sl-color-orange) h s 90%);
     --sl-color-orange-high: hsl(from var(--sl-color-orange) h s 20%);
     --sl-color-red: #cc241d;
-    --sl-color-red-low: hsl(from var(--sl-color-red) h s 80%);
+    --sl-color-red-low: hsl(from var(--sl-color-red) h s 90%);
     --sl-color-red-high: hsl(from var(--sl-color-red) h s 20%);
 }
