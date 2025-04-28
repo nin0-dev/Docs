@@ -35,12 +35,8 @@ export default defineConfig({
                     autogenerate: { directory: "installing" }
                 },
                 {
-                    label: "Your First Plugin",
-                    autogenerate: { directory: "firstPlugin" }
-                },
-                {
-                    label: "Plugin Settings",
-                    autogenerate: { directory: "settings" }
+                    label: "Storing Data",
+                    autogenerate: { directory: "storing-data" }
                 }
             ]
         })
