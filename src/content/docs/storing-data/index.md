@@ -48,7 +48,7 @@ settingName: {
 :::tip
 Your setting's key will also be the user-facing name for the setting, and should be in `camelCase` (first word lowercase, others start with uppercase, no spaces).
 
-Vencord will turn the key into a Title Case name.
+Vencord will turn the key into a Title Case name. Keep this in mind while naming your settings.
 :::
 
 :::note

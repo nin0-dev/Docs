@@ -7,7 +7,7 @@ sidebar:
 
 Declaring settings is nice. However, what's even nicer is to access them and actually do things with them in your plugin.
 
-The `settings` constant should have a `store` property, containing a key-value store of each setting. Assuming that you properly followed the
+The `settings` constant has a `store` property, containing a key-value store of each setting. Assuming that you properly followed the
 documentation, you should be able to access it from anywhere in your `index.ts(x)` file as it should be on the top-level.
 
 So, assuming the following setting:

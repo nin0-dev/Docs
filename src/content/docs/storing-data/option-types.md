@@ -19,7 +19,7 @@ Use the string type for text values.
 settingName: {
     type: OptionType.STRING,
     placeholder: "Optional example value that will be shown if setting is unset",
-    default: "Sensible default value for that setting. Optional"
+    default: ""
 }
 ```
 
@@ -33,7 +33,7 @@ Use the number type for numeric values. Visually, it looks the same as the strin
 settingName: {
     type: OptionType.NUMBER,
     placeholder: "Optional example value that will be shown if setting is unset",
-    default: 1 // Sensible default value for that setting. Optional 
+    default: 1
 }
 ```
 
@@ -46,7 +46,7 @@ large values. If you do not need that, use the `NUMBER` type. Visually, it looks
 settingName: {
     type: OptionType.BIGINT,
     placeholder: "Optional example value that will be shown if setting is unset",
-    default: 1015060230222131221n // Sensible default value for that setting. Optional 
+    default: 1015060230222131221n
 }
 ```
 
@@ -57,7 +57,7 @@ Use the boolean type for toggles, and more generally, true/false values.
 ```json
 settingName: {
     type: OptionType.BOOLEAN,
-    default: true/false // Sensible default value for that setting. Optional
+    default: true/false
 }
 ```
 
@@ -116,7 +116,7 @@ If you'd like to have a custom UI for a specific setting, or store an internal s
 
 ### Custom
 
-Custom settings can store absolutely anything and are not displayed in the settings UI. They can only be set programmatically.
+Custom settings can store any type and are not displayed in the settings UI. They can only be set programmatically.
 
 ```json
 settingName: {
@@ -134,6 +134,5 @@ settingName: {
     type: OptionType.COMPONENT,
     component: () => <>
         <Button>Here is a button</Button>
-    </> // This must be a function that returns a React component.
+    </> // This must be a React component.
 }
-
