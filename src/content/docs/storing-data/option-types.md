@@ -116,7 +116,7 @@ If you'd like to have a custom UI for a specific setting, or store an internal s
 
 ### Custom
 
-Custom settings can store any type and are not displayed in the settings UI. They can only be set programmatically.
+Custom settings can store any type and are not displayed in the settings UI. They can only be set programmatically. Of course, they can have a `default` value.
 
 ```json
 settingName: {
@@ -126,8 +126,7 @@ settingName: {
 
 ### Component
 
-With the component type, you can show a fully customizable React component. You can set the setting's value programmatically 
-in case you need to associate data to it.
+With the component type, you can show a fully customizable React component.
 
 ```tsx
 settingName: {
