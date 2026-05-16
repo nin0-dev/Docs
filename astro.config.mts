@@ -35,8 +35,16 @@ export default defineConfig({
                     autogenerate: { directory: "installing" }
                 },
                 {
+                    label: "Contributing to Vencord",
+                    autogenerate: { directory: "contributing" }
+                },
+                {
                     label: "Storing Data",
                     autogenerate: { directory: "storing-data" }
+                },
+                {
+                    label: "Plugin Natives (native.ts)",
+                    autogenerate: { directory: "native" }
                 }
             ]
         })
